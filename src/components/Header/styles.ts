@@ -36,12 +36,13 @@ export const LocationButton = styled.button`
   `}
 `
 
-export const CartButton = styled.div`
+export const CartButton = styled.button`
   ${({ theme }) => {
     return css`
       display: flex;
       padding: 0.5rem;
 
+      border: 0;
       border-radius: 0.375rem;
       background: ${theme['yellow-light']};
 

@@ -12,13 +12,13 @@ export function Header() {
       </NavLink>
 
       <S.Actions>
-        <S.LocationButton>
+        <S.LocationButton type="button">
           <MapPin size={22} weight="fill" />
           São Paulo, SP
         </S.LocationButton>
 
         <NavLink to="/checkout" title="Carrinho">
-          <S.CartButton>
+          <S.CartButton type="button">
             <img src={shoopingCart} alt="Carrinho de compras" />
           </S.CartButton>
         </NavLink>
