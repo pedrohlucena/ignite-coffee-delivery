@@ -27,5 +27,10 @@ export const GlobalStyle = createGlobalStyle`
         font-weight: 400;
         font-size: 1rem;
       }
+
+      h1,
+      p {
+        line-height: 130%;
+      }
     `}
 `

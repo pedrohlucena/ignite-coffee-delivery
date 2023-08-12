@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import coffeeDeliveryLogo from '../../assets/coffee-delivery-logo.svg'
-import shoopingCart from '../../assets/shopping-cart.svg'
+import shoppingCart from '../../assets/orange-shopping-cart.svg'
 import { MapPin } from '@phosphor-icons/react'
 import * as S from './styles'
 
@@ -19,7 +19,7 @@ export function Header() {
 
         <NavLink to="/checkout" title="Carrinho">
           <S.CartButton type="button">
-            <img src={shoopingCart} alt="Carrinho de compras" />
+            <img src={shoppingCart} alt="Carrinho de compras" />
           </S.CartButton>
         </NavLink>
       </S.Actions>
